@@ -1,0 +1,4 @@
+interface:
+  display_name: "Construction Drawing Bilingual PDF"
+  short_description: "Translate construction drawings and add rounded inch dimensions"
+  default_prompt: "Use $construction-drawing-bilingual-pdf to translate this construction drawing into a bilingual PDF with nearby rounded inch dimensions."
