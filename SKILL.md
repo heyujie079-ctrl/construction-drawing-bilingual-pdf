@@ -12,6 +12,7 @@ Create a polished bilingual overlay without altering the source geometry, title 
 - Preserve the original PDF and all mm dimensions.
 - Add English translations in blue near the corresponding Chinese text.
 - Add whole-inch equivalents near the mm values for major and useful dimensions.
+- Use Helvetica with the large-sheet font preset defined in `references/layout-rules.md`.
 - Keep every addition clear of Chinese text, dimension text, dimension lines, leaders, and drawing geometry.
 - Generate each revision from the untouched source PDF so overlays never accumulate.
 

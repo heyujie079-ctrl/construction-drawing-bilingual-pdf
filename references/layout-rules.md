@@ -4,8 +4,13 @@
 
 - Preserve the source drawing as the primary layer.
 - Use blue `#0070C0` for English translations and inch labels unless a reference drawing establishes another color.
-- Set English translation text approximately equal to the Chinese annotation height or up to 10% larger when space permits.
-- Keep inch labels similar in size to the source mm dimension text.
+- Use Helvetica for all added English translations and inch labels.
+- On a `11906 x 8419 pt` drawing sheet, use these PDF font sizes:
+  - Main or top English notes: approximately `200 pt`.
+  - Other English translations: approximately `120 pt`.
+  - Inch labels: approximately `100 pt`.
+- For a differently sized sheet, scale all three sizes by the same page-size ratio so the visual proportions remain equivalent.
+- Treat these as the default target sizes. If a target size causes a collision, move, wrap, or shorten the text before reducing the font. Reduce only as much as needed to keep every source element unobstructed.
 - Maintain consistent font, color, capitalization, and spacing across pages.
 
 ## Placement hierarchy
