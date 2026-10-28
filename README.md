@@ -10,6 +10,8 @@ A Codex skill for translating Chinese construction, shop, millwork, furniture, a
   保留原始 PDF、中文标注、页面尺寸、标题栏及全部 mm 尺寸。
 - Adds concise professional English translations in blue near the corresponding Chinese text.  
   在对应中文附近添加简洁、专业的蓝色英文翻译。
+- Works from the perspective of a senior construction and retail-display designer, using professional drafting, fabrication, installation, material, finish, hardware, and lighting terminology instead of conversational or literal machine translation.
+  以资深施工图及商业空间设计师的专业视角处理翻译，使用符合制图、制作、安装、材料、饰面、五金和照明行业习惯的专业用词，避免口语化及生硬直译。
 - Converts major and useful dimensions with `inch = mm / 25.4` and half-up whole-number rounding.  
   按 `inch = mm / 25.4` 换算主要尺寸，并采用四舍五入得到整数 inch。
 - Keeps inch labels close to their matching mm values.  
